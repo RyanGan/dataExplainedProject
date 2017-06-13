@@ -8,6 +8,17 @@ library(tidyverse)
 library(ggplot2)
 library(plotly)
 data = read.csv('edge1.1.csv')
+summary(data)
+head(data)
+unique(data$Title)
+```
+
+```{r test tidy}
+# vector of unique ids
+unique_id <- unique(data$Id)
+unique_title <- unique(data$Title)
+
+
 ```
 
 ```{r}
